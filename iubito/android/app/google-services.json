@@ -1,21 +1,40 @@
 {
   "project_info": {
-    "project_number": "982312685420",
-    "project_id": "deveinance",
-    "storage_bucket": "deveinance.firebasestorage.app"
+    "project_number": "389835701254",
+    "project_id": "iubitoeg-bbb30",
+    "storage_bucket": "iubitoeg-bbb30.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:982312685420:android:4e684dbcd2275c1b466d49",
+        "mobilesdk_app_id": "1:389835701254:android:b30177fe7716485cf31787",
         "android_client_info": {
-          "package_name": "com.devefinance"
+          "package_name": "com.devetechno.iubitoeg"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAzs97JOW0Fz-61-oCUtH41HPxcBSihUOE"
+          "current_key": "AIzaSyDJs7Sa5ks0JsFjWrNgXMXf-vRPIIXN8vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389835701254:android:f8a6b6cf959a3b4af31787",
+        "android_client_info": {
+          "package_name": "com.niletouch.iubitoeg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJs7Sa5ks0JsFjWrNgXMXf-vRPIIXN8vs"
         }
       ],
       "services": {
