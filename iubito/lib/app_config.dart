@@ -24,8 +24,8 @@ class AppConfig {
   //configure this
   // static String copyright_text =
   //     "@ Deve Finance " + this_year; //this shows in the splash screen
-  static const String app_name_ar = "iubito";
-  static const String app_name_en = "iubito";
+  static const String app_name_ar = "IUBITO";
+  static const String app_name_en = "IUBITO";
 
   /// This get the name of the application in deviceLocale
   static String appNameOnDeviceLang =

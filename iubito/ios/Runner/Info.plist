@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>iubito</string>
+	<string>IUBITO</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -39,7 +39,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>iubitoeg.com</string>
+			<string>IUBITOeg.com</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>https</string>
@@ -67,7 +67,7 @@
 	<key>FacebookClientToken</key>
 	<string></string>
 	<key>FacebookDisplayName</key>
-	<string>iubito</string>
+	<string>IUBITO</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
