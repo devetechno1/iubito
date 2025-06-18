@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyACqdEr5lW2Jhe9JqeudRZD3bz4EGQOhzU</string>
+	<string>AIzaSyCUrlVFOyzd979QY0kz_XB_z7Eo6qTjNDw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>982312685420</string>
+	<string>769536352611</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.devefinance</string>
+	<string>com.devetechno.iubitoeg</string>
 	<key>PROJECT_ID</key>
-	<string>deveinance</string>
+	<string>iubito-235b8</string>
 	<key>STORAGE_BUCKET</key>
-	<string>deveinance.firebasestorage.app</string>
+	<string>iubito-235b8.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:982312685420:ios:e0477553a4c020ef466d49</string>
+	<string>1:769536352611:ios:973ba418f217f0c926b356</string>
 </dict>
 </plist>
