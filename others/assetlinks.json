@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.threepartsgroup",
+      "sha256_cert_fingerprints": [
+        "DD:8C:2F:8D:03:97:F7:F0:54:6F:19:FC:04:F4:51:58:4C:3B:6A:2A:B9:AD:94:74:11:0D:CB:74:A2:89:3F:34"
+      ]
+    }
+  }
+]
