@@ -210,16 +210,11 @@ class _OrderListState extends State<OrderList> {
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-        onWillPop: () {
-          if (widget.from_checkout) {
-            Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return const Main();
-            }));
-            return Future<bool>.value(false);
-          } else {
-            return Future<bool>.value(true);
-          }
+    return PopScope(
+        canPop: false,
+        onPopInvokedWithResult: (didPop, result) {
+          if (!didPop) return goBack();
+          // Provider.of<CartProvider>(context, listen: false).onRefresh(context);
         },
         child: Directionality(
           textDirection:
@@ -356,6 +351,16 @@ class _OrderListState extends State<OrderList> {
     );
   }
 
+  void goBack() {
+    if (widget.from_checkout) {
+      Navigator.push(context, MaterialPageRoute(builder: (context) {
+        return const Main();
+      }));
+    } else {
+      return Navigator.of(context).pop();
+    }
+  }
+
   Container buildTopAppBarContainer() {
     return Container(
       child: Row(
@@ -364,15 +369,7 @@ class _OrderListState extends State<OrderList> {
             builder: (context) => IconButton(
               padding: EdgeInsets.zero,
               icon: UsefulElements.backIcon(),
-              onPressed: () {
-                if (widget.from_checkout) {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return const Main();
-                  }));
-                } else {
-                  return Navigator.of(context).pop();
-                }
-              },
+              onPressed: goBack,
             ),
           ),
           Text(

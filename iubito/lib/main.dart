@@ -52,7 +52,6 @@ import 'screens/coupon/coupons.dart';
 import 'screens/flash_deal/flash_deal_list.dart';
 import 'screens/flash_deal/flash_deal_products.dart';
 import 'screens/followed_sellers.dart';
-import 'screens/home/home.dart';
 import 'screens/index.dart';
 import 'screens/orders/order_details.dart';
 import 'screens/orders/order_list.dart';
@@ -133,7 +132,6 @@ var routes = GoRouter(
           return null;
         },
         pageBuilder: (BuildContext context, GoRouterState state) {
-          homeData.showPopupBanner(context);
           return const MaterialPage(child: Index());
         },
         routes: [
@@ -332,6 +330,7 @@ class _MyAppState extends State<MyApp> {
         builder: (context, provider, snapshot) {
           final ThemeProvider theme =
               Provider.of<ThemeProvider>(context, listen: true);
+
           return MaterialApp.router(
             routerConfig: routes,
             title: AppConfig.appNameOnDeviceLang,
@@ -365,6 +364,7 @@ class _MyAppState extends State<MyApp> {
               AppLocalizations.delegate,
             ],
             locale: provider.locale,
+            key: ValueKey(provider.locale.languageCode),
             supportedLocales: LangConfig().supportedLocales(),
             localeResolutionCallback: (deviceLocale, supportedLocales) {
               if (AppLocalizations.delegate.isSupported(deviceLocale!)) {
