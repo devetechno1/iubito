@@ -39,7 +39,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>iubitoeg.com</string>
+			<string>IUBITOeg.com</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>https</string>

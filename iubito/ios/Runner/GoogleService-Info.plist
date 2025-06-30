@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCUrlVFOyzd979QY0kz_XB_z7Eo6qTjNDw</string>
+	<string>AIzaSyCurmDTf-nbvDMLIqQ2ETmjh1nwuGMZB2k</string>
 	<key>GCM_SENDER_ID</key>
-	<string>769536352611</string>
+	<string>855442714847</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.devetechno.iubitoeg</string>
+	<string>com.niletouch.iubitoeg</string>
 	<key>PROJECT_ID</key>
-	<string>iubito-235b8</string>
+	<string>iubito-56c21</string>
 	<key>STORAGE_BUCKET</key>
-	<string>iubito-235b8.appspot.com</string>
+	<string>iubito-56c21.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:769536352611:ios:973ba418f217f0c926b356</string>
+	<string>1:855442714847:ios:4ad2a50b1ab723799b396a</string>
 </dict>
 </plist>
